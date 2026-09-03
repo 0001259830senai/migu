@@ -1,41 +1,43 @@
-body
-{
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
-    align-items: center;
-    
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  align-items: center;
 }
-main{
-    text-align: center;
-    align-items: center;
-} 
-h1{
-    color: black;
-   font-size: 40px; 
+main {
+  text-align: center;
+  align-items: center;
 }
-li{
-    font-size: 25px;
+h1 {
+  color: black;
+  font-size: 40px;
 }
-.images{
-    grid-template-columns: repeat(200) minmax(400);
-    
+li {
+  font-size: 25px;
 }
-h2{
-    color: darkblue;
-    text-align: center;
-    font-size: 50px;
+.images {
+  grid-template-columns: repeat(200) minmax(400);
 }
-head{
-    font-size: 25px;
+h2 {
+  color: darkblue;
+  text-align: center;
+  font-size: 50px;
 }
-h3{
-    color: black;
-    font-size: 25px;
+head {
+  font-size: 25px;
 }
-h4{
-    color: rgb(8, 128, 158);
-    text-align: center;
-    font-size: 50px;
-} 
-gride
+h3 {
+  color: black;
+  font-size: 25px;
+}
+h4 {
+  color: rgb(8, 128, 158);
+  text-align: center;
+  font-size: 50px;
+}
+.perdemos {
+  text-align: center;
+}
+.kaiki {
+  text-align: center;
+}
