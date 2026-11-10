@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+body {
+  background-color: #0f2b1d;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 15px;
+  background-image: url(../aula41/assets/Gemini_Generated_Image_5tafhv5tafhv5taf.jfif);
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #f1c40f;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.placar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.pontos {
+  font-size: 3.5rem;
+  color: #f1c40f;
+  margin: 10px 0;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+  color: white;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+.btn-add {
+  background-color: #27ae60;
+  border-radius: 5px;
+}
+.btn-truco {
+  background-color: #e67e22;
+  border-radius: 5px;
+}
+.btn-sub {
+  background-color: #c0392b;
+  border-radius: 5px;
+}
+
+.btn-reset {
+  width: 100%;
+  background-color: #34495e;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 5px;
+}

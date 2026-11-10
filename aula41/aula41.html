@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marcador de Truco</title>
+    <link rel="stylesheet" href="aula41.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Truco ♠️</h1>
+      <div class="placar">
+        <div class="dupla">
+          <div class="nome-dupla">
+            <label for="nome" class="form-label"></label>
+            <input
+              class="campos"
+              type="text"
+              id="nome"
+              class="form-control"
+              placeholder="Nome a Dupla"
+              required />
+          </div>
+          <div id="ptsA" class="pontos">0</div>
+          <div class="botoes">
+            <button class="btn-add" onclick="somar('A', 2)">+2 Ponto</button>
+            <button class="btn-truco" onclick="somar('A', 4)">+4 Truco</button>
+            <button class="btn-sub" onclick="subtrair('A')">-2 Ponto</button>
+          </div>
+        </div>
+
+        <div class="dupla">
+          <div class="nome-dupla">
+            <label for="nome" class="form-label"></label>
+            <input
+              class="campos"
+              type="text"
+              id="nome"
+              class="form-control"
+              placeholder="Nome a Dupla"
+              required />
+          </div>
+          <div id="ptsB" class="pontos">0</div>
+          <div class="botoes">
+            <button class="btn-add" onclick="somar('B', 2)">+2 Ponto</button>
+            <button class="btn-truco" onclick="somar('B', 4)">+4 Truco</button>
+            <button class="btn-sub" onclick="subtrair('B')">-2 Ponto</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn-reset" onclick="zerar()">Zerar Placar</button>
+    </div>
+
+    <script src="aula41.js"></script>
+  </body>
+</html>
